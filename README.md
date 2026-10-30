@@ -23,14 +23,14 @@
 ---
 
 ## 架构
-
+```text
 - Vue3 前端 → `POST /api/trip/plan`
 - FastAPI → 多 Agent 编排
   - 景点 Agent：maps_text_search + maps_search_detail
   - 天气 Agent：maps_weather
   - 酒店 Agent：maps_text_search + maps_search_detail
 - 三个查询 Agent → 规划 Agent（不持工具）→ TripPlan JSON
-
+```
 ---
 
 ## 技术栈
